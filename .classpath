@@ -1,0 +1,27 @@
+<classpath>
+  <classpathentry kind="src" path="src/test/scala" output="target/test-classes" including="**/*.scala|**/*.java|**/*.java"/>
+  <classpathentry kind="src" path="src/main/scala" including="**/*.scala|**/*.java|**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/org/elasticsearch/elasticsearch/1.1.1/elasticsearch-1.1.1.jar" sourcepath="M2_REPO/org/elasticsearch/elasticsearch/1.1.1/elasticsearch-1.1.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/4.8.1/junit-4.8.1.jar" sourcepath="M2_REPO/junit/junit/4.8.1/junit-4.8.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-analyzers-common/4.7.2/lucene-analyzers-common-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-analyzers-common/4.7.2/lucene-analyzers-common-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-analyzers-kuromoji/4.7.2/lucene-analyzers-kuromoji-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-analyzers-kuromoji/4.7.2/lucene-analyzers-kuromoji-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-codecs/4.7.2/lucene-codecs-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-codecs/4.7.2/lucene-codecs-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-core/4.7.2/lucene-core-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-core/4.7.2/lucene-core-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-grouping/4.7.2/lucene-grouping-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-grouping/4.7.2/lucene-grouping-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-highlighter/4.7.2/lucene-highlighter-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-highlighter/4.7.2/lucene-highlighter-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-join/4.7.2/lucene-join-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-join/4.7.2/lucene-join-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-memory/4.7.2/lucene-memory-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-memory/4.7.2/lucene-memory-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-misc/4.7.2/lucene-misc-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-misc/4.7.2/lucene-misc-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-queries/4.7.2/lucene-queries-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-queries/4.7.2/lucene-queries-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-queryparser/4.7.2/lucene-queryparser-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-queryparser/4.7.2/lucene-queryparser-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-sandbox/4.7.2/lucene-sandbox-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-sandbox/4.7.2/lucene-sandbox-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-spatial/4.7.2/lucene-spatial-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-spatial/4.7.2/lucene-spatial-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-suggest/4.7.2/lucene-suggest-4.7.2.jar" sourcepath="M2_REPO/org/apache/lucene/lucene-suggest/4.7.2/lucene-suggest-4.7.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar" sourcepath="M2_REPO/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1-sources.jar"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+</classpath>
