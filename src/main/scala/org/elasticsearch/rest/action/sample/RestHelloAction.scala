@@ -1,4 +1,4 @@
-package org.elasticsearch.search.hazelcast
+package org.elasticsearch.rest.action.sample
 
 import org.elasticsearch.rest.BaseRestHandler
 import org.elasticsearch.rest.RestController
@@ -12,8 +12,7 @@ import java.nio.charset.StandardCharsets
 import org.elasticsearch.common.xcontent.XContentType
 import org.elasticsearch.common.inject.Inject
 
-@Inject
-class RestHelloAction(settings: Settings, client: Client, controller: RestController) extends BaseRestHandler(settings, client) {
+class RestHelloAction@Inject()(settings: Settings, client: Client, controller: RestController) extends BaseRestHandler(settings, client) {
 
   controller.registerHandler(Method.POST, "/{index}/_hello", this)
 
